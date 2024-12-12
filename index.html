@@ -36,13 +36,16 @@
 			    <div class="collapse navbar-collapse" id="navbarNavDropdown">
 			      <ul class="navbar-nav ms-auto">
 			        <li class="nav-item me-3">
-			          <a class="nav-link active" aria-current="page" href="#">About</a>
+			          <a class="nav-link active" aria-current="page" href="#about">About</a>
 			        </li>
 			        <li class="nav-item me-3">
-			          <a class="nav-link" href="#">Categories</a>
+			          <a class="nav-link" href="#featured">Features</a>
 			        </li>
 			        <li class="nav-item me-3">
-			          <a class="nav-link" href="#">Pricing</a>
+			          <a class="nav-link" href="#categories-section">Categories</a>
+			        </li>
+			        <li class="nav-item me-3">
+			          <a class="nav-link" href="#contact">Contact Us</a>
 			        </li>
 			        <li class="navbar-btn nav-item me-3">
 			          <button type="button" class="btn btn-primary btn-md">Login</button>
@@ -111,73 +114,74 @@
 
 
 		<!-- START - CATEGORIES -->
-		<section id="categories">
+		<section id="categories-section">
 			<div class="container mt-5">
 				<h1 class="text-center mb-4">Categories</h1>
 
 				<!-- Categories Accordion -->
-				<div class="accordion" id="accordionExample">
-				  <div class="accordion-item">
-				    <h2 class="accordion-header" id="headingOne">
-				      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-				        Front-End Development
-				      </button>
-				    </h2>
-				    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-				      <div class="accordion-body row">
-				        <strong>Here are our courses under this category:</strong>
+				<div id="categories">
+					<div id="resources" class="accordion" id="accordionExample">
+					  <div class="accordion-item">
+					    <h2 class="accordion-header" id="headingOne">
+					      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+					        Front-End Development
+					      </button>
+					    </h2>
+					    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+					      <div class="accordion-body row">
+					        <strong>Here are our courses under this category:</strong>
 
-				        <!-- Course Cards -->
+					        <!-- Course Cards -->
 
-				        <!-- Card 1 -->
-				        <div class="col-3">
-				        	<div class="card" style="width: 18rem;">
-				        	  <div class="card-body">
-				        	    <h5 class="card-title">Course #1</h5>
-				        	    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-				        	    <a href="#" class="btn btn-primary">Learn More</a>
-				        	  </div>
-				        	</div>
-				        </div>
-				        
-				        <!-- Card 2 -->
-				        <div class="col-3">
-				        	<div class="card" style="width: 18rem;">
-				        	  <div class="card-body">
-				        	    <h5 class="card-title">Course #2</h5>
-				        	    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-				        	    <a href="#" class="btn btn-primary">Learn More</a>
-				        	  </div>
-				        	</div>
-				        </div>
-				        
-				        <!-- Card 3 -->
-				        <div class="col-3">
-				        	<div class="card" style="width: 18rem;">
-				        	  <div class="card-body">
-				        	    <h5 class="card-title">Course #3</h5>
-				        	    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-				        	    <a href="#" class="btn btn-primary">Learn More</a>
-				        	  </div>
-				        	</div>
-				        </div>
-				       
-				        <!-- Card 4 -->
-				        <div class="col-3">
-				        	<div class="card" style="width: 18rem;">
-				        	  <div class="card-body">
-				        	    <h5 class="card-title">Course #4</h5>
-				        	    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-				        	    <a href="#" class="btn btn-primary">Learn More</a>
-				        	  </div>
-				        	</div>
-				        </div>
+					        <!-- Card 1 -->
+					        <div class="col-12 col-md-3 m-2 m-md-0">
+					        	<div class="card" style="width: 18rem;">
+					        	  <div class="card-body">
+					        	    <h5 class="card-title">Course #1</h5>
+					        	    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+					        	    <a href="#" class="btn btn-primary">Learn More</a>
+					        	  </div>
+					        	</div>
+					        </div>
+					        
+					        <!-- Card 2 -->
+					        <div class="col-12 col-md-3 m-2 m-md-0">
+					        	<div class="card" style="width: 18rem;">
+					        	  <div class="card-body">
+					        	    <h5 class="card-title">Course #2</h5>
+					        	    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+					        	    <a href="#" class="btn btn-primary">Learn More</a>
+					        	  </div>
+					        	</div>
+					        </div>
+					        
+					        <!-- Card 3 -->
+					        <div class="col-12 col-md-3 m-2 m-md-0">
+					        	<div class="card" style="width: 18rem;">
+					        	  <div class="card-body">
+					        	    <h5 class="card-title">Course #3</h5>
+					        	    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+					        	    <a href="#" class="btn btn-primary">Learn More</a>
+					        	  </div>
+					        	</div>
+					        </div>
+					       
+					        <!-- Card 4 -->
+					        <div class="col-12 col-md-3 m-2 m-md-0">
+					        	<div class="card" style="width: 18rem;">
+					        	  <div class="card-body">
+					        	    <h5 class="card-title">Course #4</h5>
+					        	    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+					        	    <a href="#" class="btn btn-primary">Learn More</a>
+					        	  </div>
+					        	</div>
+					        </div>
 
-				        <!-- Add other Cards here -->
-				      </div>
-				    </div>
-				  </div>
-				  <div class="accordion-item">
+					        <!-- Add other Cards here -->
+					      </div>
+					    </div>
+					</div>
+					<div class="accordion-item">
 				    <h2 class="accordion-header" id="headingTwo">
 				      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
 				        Back-End Development
@@ -190,7 +194,7 @@
   				        <!-- Course Cards -->
 
   				        <!-- Card 1 -->
-  				        <div class="col-3">
+  				        <div class="col-12 col-md-3 m-2 m-md-0">
   				        	<div class="card" style="width: 18rem;">
   				        	  <div class="card-body">
   				        	    <h5 class="card-title">Course #1</h5>
@@ -201,7 +205,7 @@
   				        </div>
   				        
   				        <!-- Card 2 -->
-  				        <div class="col-3">
+  				        <div class="col-12 col-md-3 m-2 m-md-0">
   				        	<div class="card" style="width: 18rem;">
   				        	  <div class="card-body">
   				        	    <h5 class="card-title">Course #2</h5>
@@ -212,7 +216,7 @@
   				        </div>
   				        
   				        <!-- Card 3 -->
-  				        <div class="col-3">
+  				        <div class="col-12 col-md-3 m-2 m-md-0">
   				        	<div class="card" style="width: 18rem;">
   				        	  <div class="card-body">
   				        	    <h5 class="card-title">Course #3</h5>
@@ -223,7 +227,7 @@
   				        </div>
   				       
   				        <!-- Card 4 -->
-  				        <div class="col-3">
+  				        <div class="col-12 col-md-3 m-2 m-md-0">
   				        	<div class="card" style="width: 18rem;">
   				        	  <div class="card-body">
   				        	    <h5 class="card-title">Course #4</h5>
@@ -253,7 +257,7 @@
 				          <!-- Course Cards -->
 
 				          <!-- Card 1 -->
-				          <div class="col-3">
+				          <div class="col-12 col-md-3 m-2 m-md-0">
 				          	<div class="card" style="width: 18rem;">
 				          	  <div class="card-body">
 				          	    <h5 class="card-title">Course #1</h5>
@@ -264,7 +268,7 @@
 				          </div>
 				          
 				          <!-- Card 2 -->
-				          <div class="col-3">
+				          <div class="col-12 col-md-3 m-2 m-md-0">
 				          	<div class="card" style="width: 18rem;">
 				          	  <div class="card-body">
 				          	    <h5 class="card-title">Course #2</h5>
@@ -275,7 +279,7 @@
 				          </div>
 				          
 				          <!-- Card 3 -->
-				          <div class="col-3">
+				          <div class="ccol-12 col-md-3 m-2 m-md-0">
 				          	<div class="card" style="width: 18rem;">
 				          	  <div class="card-body">
 				          	    <h5 class="card-title">Course #3</h5>
@@ -286,7 +290,7 @@
 				          </div>
 				         
 				          <!-- Card 4 -->
-				          <div class="col-3">
+				          <div class="col-12 col-md-3 m-2 m-md-0">
 				          	<div class="card" style="width: 18rem;">
 				          	  <div class="card-body">
 				          	    <h5 class="card-title">Course #4</h5>
@@ -302,6 +306,7 @@
 				    </div>
 				  </div>
 				</div>
+				</div> 
 			</div>
 		</section>
 		<!-- END - CATEGORIES SECTION -->
@@ -311,7 +316,7 @@
 			<div class="container mt-5">
 				<div class="row d-flex align-items-center">
 					<!-- Carousel -->
-					<div class="col-12 col-md-6">
+					<div class="col-12 col-md-6 ">
 						<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
 						  <div class="carousel-inner">
 						    <div class="carousel-item active">
@@ -327,12 +332,26 @@
 						</div>
 					</div>
 					<div class="col-12 col-md-6">
+						<h2>About Us</h1>
+						
 						<div class="col-12 order-sm-2">
-							<h2>About Us</h1>
-							<p>At ShopVerse, we believe shopping should be simple, enjoyable, and tailored to your lifestyle. Our mission is to provide a comprehensive online marketplace where quality meets convenience. We’re passionate about bringing you a diverse range of products, from the latest fashion trends and tech gadgets to home essentials and unique finds. Our dedicated team works tirelessly to ensure your shopping experience is seamless, with top-notch customer service, secure payment options, and fast, reliable delivery. Join our growing community and explore a world where everything you need is just a click away.</p>
-							<div>
-								<button type="button" class="btn btn-outline-secondary">Learn More</button>
-							</div>
+							<p>At LearnHub Simulation, we are passionate about revolutionizing education by offering an immersive and dynamic online learning experience. As a comprehensive educational hub, we empower learners to explore, grow, and excel in various fields, from cutting-edge technology to essential life skills.
+							<br>
+							<br>
+							Our curated courses and interactive simulations bridge the gap between theory and practice, equipping individuals with real-world skills and confidence to tackle challenges in their chosen domains. Whether you’re a beginner looking to take your first step or a professional seeking to advance your expertise, LearnHub Simulation provides the tools, resources, and community to help you achieve your goals.
+							<br>
+							<br>
+							Join us in redefining learning—one skill at a time.</p>
+	
+						</div>
+						<div class="col-12 order-sm-2">
+							<div id="mission" class="col-12 order-sm-2">
+								<h4>Mission Statement</h4>
+								<p>Our mission at LearnHub Simulation is to empower learners of all backgrounds to unlock their full potential by providing innovative, hands-on educational experiences. Through accessible, high-quality courses and interactive simulations, we aim to bridge the gap between knowledge and application, fostering a lifelong love for learning and preparing individuals to thrive in an ever-evolving world.
+								</p>
+								<div>
+									<button type="button" class="btn btn-outline-secondary">Learn More</button>
+								</div>
 						</div>
 					</div>
 				</div>
